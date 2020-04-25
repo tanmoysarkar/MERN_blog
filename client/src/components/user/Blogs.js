@@ -155,7 +155,7 @@ class Blogs extends Component{
                                         <p className="block-data-details">
                                             <Button className="blog-read-me-button col-4" onClick={this.handleOpenDialog.bind(this, item._id)}>Read </Button> 
 
-                                            { isAuthenticated && (item.blog_by === user._id) ? 
+                                            
                                             <span className="col=8">
 
                                             <Button className="remove-btn-blog-post"
@@ -167,7 +167,7 @@ class Blogs extends Component{
                                             <a className="btn edit-btn-blog-post" href="#" onClick={this.replaceModalItem.bind(this, item._id)}  title="Edit Blog">
                                                 <i className="fa fa-pencil" aria-hidden="true"></i>
                                             </a>
-                                            </span> : null }
+                                            </span> 
                                         </p>
                                         <p style={{ fontStyle:'italic', fontWeight:'bold'}}>By-{item.blog_by_author} <span style={{float:'right',}}>{Moment(item.date).format('Do MMMM YYYY')}</span></p> 
                                     </CardActions>
