@@ -6,7 +6,7 @@ const config = require('config');
 const jwt = require('jsonwebtoken');
 
 //User Model 
-const User = require('../../models/user');
+const User = require('../../models/User');
 
 //@route POST api/users
 // @desc register new user
