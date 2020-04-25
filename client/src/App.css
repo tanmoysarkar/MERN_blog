@@ -1,0 +1,353 @@
+.remove-btn {
+    margin-right: 0.5rem;
+}
+
+.fade-enter {
+    opacity: 0.01;
+}
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms ease-in;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 1000ms ease-in;
+}
+
+body{
+    cursor: pointer;
+    
+}
+  .header-color{
+    background: #3CA55C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B5AC49, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B5AC49, #3CA55C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
+  
+  .landing-grid{
+    background: #3CA55C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #B5AC49, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #B5AC49, #3CA55C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: relative ;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%
+  }
+  
+  .projects-grid {
+    display: inline-flex;
+  }
+  
+  /* Resume Page css */
+  .resume-right-col {
+    background: #27221F;
+    color: white;
+    padding: 2em;
+  }
+  
+  /* contact page css */
+  .contact-right-col {
+    background: #DEDEDE;
+    color: black;
+    padding: 1rem;
+    height: 35rem;
+  }
+  .contact-body {
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+  }
+  
+  .contact-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .mdl-card__menu.blog-dialog-close-button.mdl-close-button{
+    float: left;
+  }
+  .contact-grid h2 {
+    font-family: 'Anton', sans-serif;
+  }
+  
+  .contact-grid p {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+  }
+  
+  .contact-grid hr {
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .contact-list i {
+    font-size: 35px;
+    padding-right: 3rem;
+    text-align: center;
+  }
+  
+  .contact-list{
+   padding: 0px 0px 0px 100px; 
+  }
+  
+  
+  /* contact page css */
+  
+  .avatar-img {
+    height: 250px;
+    padding-top: 5em;
+    border-radius: 50%;
+  }
+  
+  .banner-text {
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+  }
+  
+  .banner-text h1 {
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .banner-text hr {
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .banner-text p {
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .social-links i {
+    color: white;
+    font-size: 4em;
+    padding: 5px;
+  }
+  
+  /*Resume */
+  .resume-right-col{
+    background: #27221F;
+    color: white;
+    padding: 2em;
+  }
+  
+  .resume-left-section-border {
+    border-top: 3px solid #833fb2;
+    width: 50%;
+  }
+
+  .resume-left-contact-section-border {
+    border-top: 3px solid #833fb2;
+    width: 100%;
+  }
+
+.contact-list-item {
+  font-size: 2.2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+  .resume-right-section-border {
+    border-top: 3px solid #e22947;
+  }
+
+  /*About me */
+  .about-img{
+    height: 330px;
+  
+  }
+  .about-details hr{
+    width :50%;
+    margin: auto;
+  }
+  
+  /* Footer*/
+  
+  .footer-header{
+
+    background: #fff;
+  
+  }
+  
+  /*resume cards */
+  
+  .cards-grid{
+    min-width: auto;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  
+  /*Blogs */
+  
+  .close-button {
+    background: white;
+    
+  }
+  .close-button:hover{
+    background: white;
+  }
+  .remove-btn-blog-post{
+     float: right;
+     margin: 0;
+     min-width: 3rem;
+  }
+  .edit-btn-blog-post{
+    float: right;
+  }
+  .close-button:active{
+    background: white;
+  }
+  .close-button:focus{
+    background: white !important;
+  }
+
+  .open-dialog{
+    width: 750px !important;
+    height: auto !important;
+    margin: auto !important;
+    top: 15% !important;
+    position: absolute !important;
+  }
+
+  .blog-read-me-button{
+    background: antiquewhite;
+    text-decoration: underline;
+  }
+  .error-page{
+    text-align: center;
+    margin: auto;
+  }
+  .error-page img{
+    width: auto;
+  
+  }
+  .blogs-contents-image{
+    width: 70%;
+  
+     left: 50%;
+     right: 50%;
+     margin-left: 30px;
+     margin-right: 30px;
+  
+  }
+  .card-title-image{
+    color:#fff;
+     height:200px;
+     width: auto;
+      background:url("https://res.cloudinary.com/tammycloudinary/image/upload/c_thumb,w_200,g_face/v1548273942/Blog-intro.jpg") center;
+  }
+
+  .card-blog-title-image {
+    color:#fff;
+    height:176px;
+    width: auto;
+    background:url("https://res.cloudinary.com/tammycloudinary/image/upload/v1587355745/blog-684748_1920.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  /*blog contents */
+  
+  .dialog-contents p{
+    font-size: 15px;
+    font-style: italic;
+  
+  }
+  .hr-divider {
+    border-top: 3px solid #833fb2;
+    width: 50%;
+    float: left;
+  }
+  .bold-font{
+    font-weight: bold;
+  }
+  .mdl-card__title{
+    padding: 5px 16px !important;
+  }
+  .mdl-card__supporting-text {
+    padding: 10px 16px !important;
+  }
+
+  .mdl-layout__header-row .mdl-navigation__link .nav-link {
+      color: white;
+      padding: .25rem;
+  }
+  .mdl-layout__drawer .mdl-navigation {
+      padding: 0;
+  }
+
+  .mdl-layout__drawer .mdl-navigation .mdl-navigation__link .nav-link {
+    color: #757575;
+    padding: 0;
+  }
+
+
+  @media only screen and ( max-width: 600px) {
+    .open-dialog{
+      width: auto !important;
+    }
+    .banner-text{
+      width: auto;
+      text-align: center;
+    }
+    .banner-text h1{
+      font-size: 50px !important;
+    }
+  
+    .social-links{
+      width: 100% !important;
+    }
+  
+    .contact-grid {
+      text-align: center;
+      justify-content: center;
+      width: 100%;
+      background: white;
+      height: auto;
+    }
+    .contact-list {
+      padding: 0px 0px 0px 20px;
+    }
+    .mdl-list__item-primary-content{
+      font-size: 16px !important;
+    }
+    .error-page img{
+      width: 100%;
+    }
+
+    .loading-container{
+      height: auto;
+    }
+
+  }
